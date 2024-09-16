@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726501281199</updated>
-      <workItem from="1726501286095" duration="459000" />
+      <workItem from="1726501286095" duration="982000" />
     </task>
     <servers />
   </component>

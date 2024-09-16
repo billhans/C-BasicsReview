@@ -1,3 +1,5 @@
 # ninja log v5
 0	345	7482049221460199	CMakeFiles/day02_variable.dir/main.cpp.obj	9a459a0c329e7c65
 348	839	7482049226342453	day02_variable.exe	1268ed94e3293492
+4	310	7482053789826658	CMakeFiles/day02_variable.dir/cout.cpp.obj	d1d804632c0bab35
+3	441	7482054843384080	day02_variable.exe	c2dba1d829f926b6
