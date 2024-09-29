@@ -33,11 +33,11 @@ void caculate() {
 }
 
 void sizeofnum() {
-    std::cout << "Size of char: " << sizeof(char) << " bytes\n";
-    std::cout << "Size of int: " << sizeof(int) << " bytes\n";
-    std::cout << "Size of float: " << sizeof(float) << " bytes\n";
-    std::cout << "Size of double: " << sizeof(double) << " bytes\n";
-    std::cout << "Size of long long: " << sizeof(long long) << " bytes\n";
+    std::cout << "Size of char: "        << sizeof(char) <<      " bytes\n";
+    std::cout << "Size of int: "         << sizeof(int) <<       " bytes\n";
+    std::cout << "Size of float: "       << sizeof(float) <<     " bytes\n";
+    std::cout << "Size of double: "      << sizeof(double) <<    " bytes\n";
+    std::cout << "Size of long long: "   << sizeof(long long) << " bytes\n";
 }
 
 int globalVar = 22;
@@ -96,7 +96,9 @@ void func4() {
 
 int main() {
     caculate();
+    std::cout << std::endl;
     sizeofnum();
+    std::cout << std::endl;
 
     std::cout << "Inside main: globalVar = " << globalVar << std::endl;
 
@@ -110,6 +112,7 @@ int main() {
     obj.printVar();
 
     func3();
+    std::cout << std::endl;
 
     std::cout << "Inside main:" << std::endl;
     std::cout << "globalVar = " << globalVar << std::endl;
