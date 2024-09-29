@@ -68,7 +68,7 @@ public:
     }
 };
 
-void func3() {
+void func3() { // 块级作用域
     {
         int blockVar = 5;
         std::cout << "Inside block: blockVar = " << blockVar << std::endl;
@@ -117,7 +117,8 @@ int main() {
     std::cout << "Inside main:" << std::endl;
     std::cout << "globalVar = " << globalVar << std::endl;
     std::cout << "staticVar = " << staticVar << std::endl;
-
+    std::cout << std::endl;
+    
     func4();
 
     const char* strConst = "Hello, World!";
