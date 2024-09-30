@@ -1,5 +1,6 @@
 #include <iostream>
-#include "global.h"
+#include "global.h" // 声明可以重复
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
     std::cout << "globbal name is " << global_name << std::endl;

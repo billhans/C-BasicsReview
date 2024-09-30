@@ -2,8 +2,8 @@
 #define DAY05_EXTERN_GLOBAL_H
 #include <string>
 // 声明全局变量
-extern int global_age ;
-extern std::string global_name ;
+extern int global_age;
+extern std::string global_name;
 
 // 声明全局函数
 extern void print_global();
