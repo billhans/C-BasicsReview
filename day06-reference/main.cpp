@@ -2,6 +2,8 @@
 /*
 内置类型 int char float double bool 
 复合类型 array struct union enum class pointer reference
+
+左值引用 右值引用
 */
 int main() {
     int a = 100;
