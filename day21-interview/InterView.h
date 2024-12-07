@@ -1,7 +1,3 @@
-//
-// Created by secon on 2024/11/30.
-//
-
 #ifndef DAY21_INTERVIEW_INTERVIEW_H
 #define DAY21_INTERVIEW_INTERVIEW_H
 

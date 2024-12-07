@@ -1,7 +1,3 @@
-//
-// Created by secon on 2024/11/30.
-//
-
 #include "InterView.h"
 
 std::ostream& operator << (std::ostream &out, const DefaultClass &defaultClass){
